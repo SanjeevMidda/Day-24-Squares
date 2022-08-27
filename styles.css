@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    
+}
+
+h4 {
+    display: inline-block;
+    margin: 10px;
+}
+
+.square-one {
+border: 1px solid green;
+height: 750px;
+/* background-color: green; */
+}
+
+.square-two {
+    border: 1px solid red;
+    width: 40%;
+    height:40%;
+    position: relative;
+    top: 450px;
+    border-bottom: none;
+    border-left: none;
+
+}
+
+.square-three {
+border: 1px solid blue;
+width: 80%;
+height: 40%;
+position: relative;
+top: 60%;
+border-bottom: none;
+border-left: none;
+}
+
+h1:hover {
+    color: orangered;
+}
+
+h4:hover {
+    /* background-color: purple;
+    color: white;
+    padding: 10px; */
+
+    color: orangered;
+}
